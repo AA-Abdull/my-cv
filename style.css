@@ -1,0 +1,557 @@
+.enjoy-css {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 1235px;
+    height: 530px;
+    margin: -98px;
+    padding: 109px;
+    border: none;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: -webkit-linear-gradient(63deg, rgb(21,21,21) 5px, rgba(0,0,0,0) 5px), -webkit-linear-gradient(-117deg, rgb(21,21,21) 5px, rgba(0,0,0,0) 5px), -webkit-linear-gradient(63deg, rgb(34,34,34) 5px, rgba(0,0,0,0) 5px), -webkit-linear-gradient(-117deg, rgb(34,34,34) 5px, rgba(0,0,0,0) 5px), -webkit-linear-gradient(0deg, rgb(27,27,27) 10px, rgba(0,0,0,0) 10px), -webkit-linear-gradient(-90deg, rgb(29,29,29) 25%, rgb(26,26,26) 25%, rgb(26,26,26) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 75%, rgb(36,36,36) 75%, rgb(36,36,36) 100%), rgb(19, 19, 19);
+    background: -moz-linear-gradient(27deg, rgb(21,21,21) 5px, rgba(0,0,0,0) 5px), -moz-linear-gradient(207deg, rgb(21,21,21) 5px, rgba(0,0,0,0) 5px), -moz-linear-gradient(27deg, rgb(34,34,34) 5px, rgba(0,0,0,0) 5px), -moz-linear-gradient(207deg, rgb(34,34,34) 5px, rgba(0,0,0,0) 5px), -moz-linear-gradient(90deg, rgb(27,27,27) 10px, rgba(0,0,0,0) 10px), -moz-linear-gradient(180deg, rgb(29,29,29) 25%, rgb(26,26,26) 25%, rgb(26,26,26) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 75%, rgb(36,36,36) 75%, rgb(36,36,36) 100%), rgb(19, 19, 19);
+    background: linear-gradient(27deg, rgb(21,21,21) 5px, rgba(0,0,0,0) 5px), linear-gradient(207deg, rgb(21,21,21) 5px, rgba(0,0,0,0) 5px), linear-gradient(27deg, rgb(34,34,34) 5px, rgba(0,0,0,0) 5px), linear-gradient(207deg, rgb(34,34,34) 5px, rgba(0,0,0,0) 5px), linear-gradient(90deg, rgb(27,27,27) 10px, rgba(0,0,0,0) 10px), linear-gradient(180deg, rgb(29,29,29) 25%, rgb(26,26,26) 25%, rgb(26,26,26) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 75%, rgb(36,36,36) 75%, rgb(36,36,36) 100%), rgb(19, 19, 19);
+    background-position: 0 5px, 10px 0, 0 10px, 10px 5px, 0 0, 0 0;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+  }
+
+  .box{
+    background-color: white;
+    border: solid black 1px;
+    height: 500px;
+    width: 1200px;
+    position: absolute;
+    left: 76px;
+    top: 70px;
+  }
+  
+  /* From Uiverse.io by Smit-Prajapati */ 
+.card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: lightgrey;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 1s ease-in-out;
+  }
+  
+  .background {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 100% 107%, #ff89cc 0%, #9cb8ec 30%, #00ffee 60%, #62c2fe 100%);
+  }
+  
+  .logo {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .logo .logo-svg {
+    fill: white;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .icon .svg {
+    fill: rgba(255, 255, 255, 0.797);
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .box {
+    position: absolute;
+    padding: 10px;
+    text-align: right;
+    background: rgba(255, 255, 255, 0.389);
+    border-top: 2px solid rgb(255, 255, 255);
+    border-right: 1px solid white;
+    border-radius: 10% 13% 42% 0%/10% 12% 75% 0%;
+    box-shadow: rgba(100, 100, 111, 0.364) -7px 7px 29px 0px;
+    transform-origin: bottom left;
+    transition: all 1s ease-in-out;
+  }
+  
+  .box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .box:hover .svg {
+    fill: white;
+  }
+  
+  .box1 {
+    width: 70%;
+    height: 70%;
+    bottom: -70%;
+    left: -70%;
+  }
+  
+  .box1::before {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #ff53d4 60%, #62c2fe 90%);
+  }
+  
+  .box1:hover::before {
+    opacity: 1;
+  }
+  
+  .box1:hover .icon .svg {
+    filter: drop-shadow(0 0 5px white);
+  }
+  
+  .box2 {
+    width: 50%;
+    height: 50%;
+    bottom: -50%;
+    left: -50%;
+    transition-delay: 0.2s;
+  }
+  
+  .box2::before {
+    background: radial-gradient(circle at 30% 107%, #91e9ff 0%, #00ACEE 90%);
+  }
+  
+  .box2:hover::before {
+    opacity: 1;
+  }
+  
+  .box2:hover .icon .svg {
+    filter: drop-shadow(0 0 5px white);
+  }
+  
+  .box3 {
+    width: 30%;
+    height: 30%;
+    bottom: -30%;
+    left: -30%;
+    transition-delay: 0.4s;
+  }
+  
+  .box3::before {
+    background: radial-gradient(circle at 30% 107%, #969fff 0%, #b349ff 90%);
+  }
+  
+  .box3:hover::before {
+    opacity: 1;
+  }
+  
+  .box3:hover .icon .svg {
+    filter: drop-shadow(0 0 5px white);
+  }
+  
+  .box4 {
+    width: 10%;
+    height: 10%;
+    bottom: -10%;
+    left: -10%;
+    transition-delay: 0.6s;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card:hover .box {
+    bottom: -1px;
+    left: -1px;
+  }
+  
+  .card:hover .logo {
+    transform: translate(0, 0);
+    bottom: 20px;
+    right: 20px;
+  }
+  
+
+
+
+  .box5{
+    background-color: white;
+    height: 500px;
+    width: 900px;
+    position: absolute;
+    left: 300px;
+    bottom: 120px;
+}
+
+
+
+
+/* From Uiverse.io by Sharkotech */ 
+.card {
+    width: 190px;
+    height: 254px;
+    background: rgba(211, 211, 211, 0.199);
+    position: absolute;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  #c1 {
+    background-color: black;
+  }
+  
+  #c2 {
+    background-color: blue;
+  }
+  
+  #c3 {
+    background-color: red;
+  }
+  
+  #c4 {
+    background-color: green;
+  }
+  
+  .main:hover #c1 {
+    transform: translateX(-100px) rotate(-40deg);
+  }
+  
+  .main:hover #c2 {
+    transform: translateX(-50px) rotate(-30deg);
+  }
+  
+  .main:hover #c3 {
+    transform: translateX(0) rotate(-20deg);
+  }
+  
+  .main:hover #c4 {
+    transform: translateX(50px) rotate(-10deg);
+  }
+  
+  #c1:hover {
+    transform: translateX(-150px) rotate(0deg) !important;
+  }
+  
+  #c2:hover {
+    transform: translateX(-100px) rotate(0deg) !important;
+  }
+  
+  #c3:hover {
+    transform: translateX(-50px) rotate(0deg) !important;
+  }
+  
+  #c4:hover {
+    transform: translateX(50px) rotate(0deg) !important;
+  }
+  
+  .main {
+    display: grid;
+    height: 50vmax;
+    place-items: center;
+  }
+
+
+
+
+  img{
+    height: 260px;
+    width: 200px;
+  }
+
+
+
+
+  /* From Uiverse.io by Siyu1017 */ 
+.tooltip-container {
+    position: relative;
+    transition: all 0.2s;
+    font-size: 17px;
+    padding: 1rem 0;
+    width: fit-content;
+    box-sizing: border-box;
+    --bg: linear-gradient(135deg, #a940fd, #5b46e8);
+    --color: #fff;
+    --tooltip-bg: #303030;
+    --tooltip-color: #fff;
+    --margin: 0.5rem;
+    position: absolute;
+    left: 220px;
+    top: 20px;
+  }
+  
+  .text {
+    z-index: 9;
+    background: var(--bg);
+    color: var(--color);
+    padding: 0.7em 1.8em;
+    border-radius: 0.75rem;
+    height: fit-content;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 4px 16px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: calc(-1 * var(--margin));
+    left: 50%;
+    transform: translateX(-50%) translateY(0%) scale(0);
+    padding: 0.3em 0.6em;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s;
+    background: var(--tooltip-bg);
+    color: var(--tooltip-color);
+    border-radius: 0.5rem;
+    z-index: 99999;
+  }
+  
+  .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 0.6em;
+    width: 0.6em;
+    bottom: -0.2em;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    background: var(--tooltip-bg);
+    border-bottom-right-radius: 0.175rem;
+  }
+  
+  .tooltip-container:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(-50%) translateY(-100%) scale(1);
+  }
+
+
+
+  p{
+    color: black;
+    font-size: 15px;
+    font-weight: 750;
+  }
+
+
+
+
+  .age{
+    color: white;
+    background-color: purple;
+    position: absolute;
+    left: 420px;
+    top: 30px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+
+
+  .age20{
+    color: black;
+    position: absolute;
+    left: 580px;
+    top: 30px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+
+
+  .recidence{
+    color: white;
+    background-color: purple;
+    position: absolute;
+    left: 420px;
+    top: 80px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+
+
+
+  .recidence20{
+    color: black;
+    position: absolute;
+    left: 580px;
+    top: 80px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+
+
+
+  .freelance{
+    color: white;
+    background-color: purple;
+    position: absolute;
+    left: 420px;
+    top: 130px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+
+
+  .freelance20{
+    color: black;
+    position: absolute;
+    left: 580px;
+    top: 130px;
+    font-weight: 700;
+    font-style: italic; 
+  }
+
+
+
+  .relign{
+    color: white;
+    background-color: purple;
+    position: absolute;
+    left: 420px;
+    top: 180px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+
+  .relign20{
+    color: black;
+    position: absolute;
+    left: 580px;
+    top: 180px;
+    font-weight: 700;
+    font-style: italic; 
+  }
+
+  .name{
+
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  position: absolute;
+  top: 260px;
+  right: 550px;
+  }
+
+  .name2{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 260px;
+    right: 468px;
+  }
+
+  .name3{
+    color: purple;
+    position: absolute;
+    top: 285px;
+    right: 550px;
+    font-size: 14px;
+  }
+
+  .name4{
+    color: purple;
+    position: absolute;
+    top: 285px;
+    right: 490px;
+    font-size: 14px;
+  }
+
+
+  .text2 {
+    z-index: 9;
+    background: var(--bg);
+    color: var(--color);
+    padding: 0.7em 1.8em;
+    border-radius: 0.75rem;
+    height: fit-content;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 4px 16px 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 140px;
+  }
+
+
+  .webd{
+    color: black;
+    position: absolute;
+    top: 180px;
+  }
+
+
+  .Email{
+    border: solid black 2px;
+    border-radius: 7px;
+    position: absolute;
+    top: 430px;
+    right: 410px;
+    color: purple;
+    font-style: italic;
+  }
+
+
+  .ph{
+    border: solid black 2px;
+    border-radius: 7px;
+    position: absolute;
+    top: 450px;
+    left:  530px;
+    color: purple;
+    font-style: italic;
+  }
+
+
+  .text3 {
+    z-index: 9;
+    background: var(--bg);
+    color: var(--color);
+    padding: 0.7em 1.8em;
+    border-radius: 0.75rem;
+    height: fit-content;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 4px 16px 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 250px;
+  }
+
+
+  
+  
+
+
+
+
+  
+
+  
